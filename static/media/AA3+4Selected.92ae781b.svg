@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="45px" viewBox="0 0 44 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AA Icon / 3 + 4 selected</title>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-21.2%" y="-16.2%" width="142.5%" height="142.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AA-Icon-/-3-+-4-selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AA3+4Selected" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#0F2365" stroke-width="3" fill="#FF6665" xlink:href="#path-1"></use>
+            </g>
+            <path d="M9.74,25 L11.12,21.4 L16.52,21.4 L17.9,25 L19.42,25 L14.54,12.4 L13.2,12.4 L8.24,25 L9.74,25 Z M16.08,20.24 L11.52,20.24 L12.56,17.54 C12.68,17.2466667 12.79,16.9633333 12.89,16.69 C12.99,16.4166667 13.09,16.14 13.19,15.86 C13.29,15.58 13.3933333,15.2866667 13.5,14.98 C13.6066667,14.6733333 13.7133333,14.3466667 13.82,14 L13.82,14 L13.86,14 C14.0866667,14.7066667 14.3033333,15.3566667 14.51,15.95 C14.7166667,16.5433333 14.9066667,17.0733333 15.08,17.54 L15.08,17.54 L16.08,20.24 Z M21.4,25 L22.78,21.4 L28.18,21.4 L29.56,25 L31.08,25 L26.2,12.4 L24.86,12.4 L19.9,25 L21.4,25 Z M27.74,20.24 L23.18,20.24 L24.22,17.54 C24.34,17.2466667 24.45,16.9633333 24.55,16.69 C24.65,16.4166667 24.75,16.14 24.85,15.86 C24.95,15.58 25.0533333,15.2866667 25.16,14.98 C25.2666667,14.6733333 25.3733333,14.3466667 25.48,14 L25.48,14 L25.52,14 C25.7466667,14.7066667 25.9633333,15.3566667 26.17,15.95 C26.3766667,16.5433333 26.5666667,17.0733333 26.74,17.54 L26.74,17.54 L27.74,20.24 Z" id="AA" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

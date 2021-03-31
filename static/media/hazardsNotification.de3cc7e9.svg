@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SideBar" transform="translate(-17.000000, -300.000000)">
+            <g id="Group-3" transform="translate(17.000000, 300.000000)">
+                <g id="report_problem-(1)-copy" transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M16.9779748,3.41670995 L30.8152027,27.2301429 L3.14074689,27.2301429 L16.9779748,3.41670995 Z M16.9989403,0 L0,29 L34,29 L16.9989403,0 Z M17.9307402,20.816319 L15.8807805,20.816319 L15.8807805,24.0858979 L17.9307402,24.0858979 L17.9307402,20.816319 Z M17.9307402,11.0075823 L15.8807805,11.0075823 L15.8807805,17.5467401 L17.9307402,17.5467401 L17.9307402,11.0075823 Z" id="Shape"></path>
+                </g>
+                <circle id="Oval" fill="#FF0E0E" cx="30" cy="4" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

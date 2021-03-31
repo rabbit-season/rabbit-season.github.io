@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AA Icon / 3 + 4 Copy 3</title>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-17.5%" y="-12.5%" width="135.0%" height="135.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AA-Icon-/-3-+-4-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)" fill-rule="nonzero">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FF6665" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <path d="M14.712,27.141 C16.1813333,27.141 17.334,26.7483333 18.17,25.963 C19.006,25.1776667 19.424,23.968 19.424,22.334 L19.424,22.334 L19.424,15 L17.676,15 L17.676,22.391 C17.676,23.3916667 17.4385,24.196 16.9635,24.804 C16.4885,25.412 15.738,25.716 14.712,25.716 C13.6733333,25.716 12.9196667,25.4436667 12.451,24.899 C11.9823333,24.3543333 11.748,23.4423333 11.748,22.163 L11.748,22.163 L11.748,15 L10,15 L10,22.239 C10,23.949 10.4148333,25.1935 11.2445,25.9725 C12.0741667,26.7515 13.23,27.141 14.712,27.141 Z M24.022,26.97 L24.022,20.776 C24.022,20.244 24.0156667,19.712 24.003,19.18 C23.9903333,18.648 23.9713333,18.116 23.946,17.584 L23.946,17.584 L23.984,17.584 C24.1613333,17.9133333 24.3513333,18.2458333 24.554,18.5815 C24.7566667,18.9171667 24.953,19.218 25.143,19.484 L25.143,19.484 L30.539,26.97 L32.059,26.97 L32.059,15 L30.349,15 L30.349,21.631 C30.349,22.0743333 30.3553333,22.5176667 30.368,22.961 C30.3806667,23.4043333 30.3996667,23.8476667 30.425,24.291 L30.425,24.291 L30.387,24.291 C30.235,24.0123333 30.064,23.7273333 29.874,23.436 C29.684,23.1446667 29.4876667,22.8596667 29.285,22.581 L29.285,22.581 L23.832,15 L22.312,15 L22.312,26.97 L24.022,26.97 Z" id="UN" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

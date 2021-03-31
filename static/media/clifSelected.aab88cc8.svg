@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AA Icon / 3 + 4 Copy 4</title>
+    <defs>
+        <circle id="path-1" cx="22" cy="22" r="20"></circle>
+        <filter x="-21.2%" y="-16.2%" width="142.5%" height="142.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AA-Icon-/-3-+-4-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#0F2365" stroke-width="3" fill="#FF6665" xlink:href="#path-1"></use>
+        </g>
+        <path d="M18,28.96 C18.8,28.96 19.4766667,28.9066667 20.03,28.8 C20.5833333,28.6933333 21.0933333,28.5266667 21.56,28.3 L21.56,28.3 L21.14,26.82 C20.7133333,27.02 20.2833333,27.1733333 19.85,27.28 C19.4166667,27.3866667 18.8666667,27.44 18.2,27.44 C17.6266667,27.44 17.0866667,27.35 16.58,27.17 C16.0733333,26.99 15.63,26.7066667 15.25,26.32 C14.87,25.9333333 14.5666667,25.4266667 14.34,24.8 C14.1133333,24.1733333 14,23.4066667 14,22.5 C14,21.6066667 14.1166667,20.8433333 14.35,20.21 C14.5833333,19.5766667 14.8966667,19.06 15.29,18.66 C15.6833333,18.26 16.1433333,17.97 16.67,17.79 C17.1966667,17.61 17.7533333,17.52 18.34,17.52 C18.6333333,17.52 18.8966667,17.5333333 19.13,17.56 C19.3633333,17.5866667 19.59,17.6266667 19.81,17.68 C20.03,17.7333333 20.25,17.8033333 20.47,17.89 C20.69,17.9766667 20.9266667,18.0733333 21.18,18.18 L21.18,18.18 L21.62,16.74 C21.1666667,16.5133333 20.6733333,16.3333333 20.14,16.2 C19.6066667,16.0666667 18.9266667,16 18.1,16 C17.22,16 16.4066667,16.1433333 15.66,16.43 C14.9133333,16.7166667 14.27,17.1366667 13.73,17.69 C13.19,18.2433333 12.7666667,18.9233333 12.46,19.73 C12.1533333,20.5366667 12,21.4533333 12,22.48 C12,23.5333333 12.1566667,24.4633333 12.47,25.27 C12.7833333,26.0766667 13.21,26.7533333 13.75,27.3 C14.29,27.8466667 14.9266667,28.26 15.66,28.54 C16.3933333,28.82 17.1733333,28.96 18,28.96 Z M25.72,28.78 L25.72,23.28 L30.84,23.28 L30.84,21.78 L25.72,21.78 L25.72,17.7 L31.28,17.7 L31.28,16.18 L23.88,16.18 L23.88,28.78 L25.72,28.78 Z" id="CF" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

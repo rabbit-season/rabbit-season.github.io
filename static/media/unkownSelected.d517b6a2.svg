@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AA Icon / 3 + 4 Copy 5</title>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-21.2%" y="-16.2%" width="142.5%" height="142.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AA-Icon-/-3-+-4-Copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#0F2365" stroke-width="3" fill="#FF6665" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <path d="M15.712,28.141 C17.1813333,28.141 18.334,27.7483333 19.17,26.963 C20.006,26.1776667 20.424,24.968 20.424,23.334 L20.424,23.334 L20.424,16 L18.676,16 L18.676,23.391 C18.676,24.3916667 18.4385,25.196 17.9635,25.804 C17.4885,26.412 16.738,26.716 15.712,26.716 C14.6733333,26.716 13.9196667,26.4436667 13.451,25.899 C12.9823333,25.3543333 12.748,24.4423333 12.748,23.163 L12.748,23.163 L12.748,16 L11,16 L11,23.239 C11,24.949 11.4148333,26.1935 12.2445,26.9725 C13.0741667,27.7515 14.23,28.141 15.712,28.141 Z M25.022,27.97 L25.022,21.776 C25.022,21.244 25.0156667,20.712 25.003,20.18 C24.9903333,19.648 24.9713333,19.116 24.946,18.584 L24.946,18.584 L24.984,18.584 C25.1613333,18.9133333 25.3513333,19.2458333 25.554,19.5815 C25.7566667,19.9171667 25.953,20.218 26.143,20.484 L26.143,20.484 L31.539,27.97 L33.059,27.97 L33.059,16 L31.349,16 L31.349,22.631 C31.349,23.0743333 31.3553333,23.5176667 31.368,23.961 C31.3806667,24.4043333 31.3996667,24.8476667 31.425,25.291 L31.425,25.291 L31.387,25.291 C31.235,25.0123333 31.064,24.7273333 30.874,24.436 C30.684,24.1446667 30.4876667,23.8596667 30.285,23.581 L30.285,23.581 L24.832,16 L23.312,16 L23.312,27.97 L25.022,27.97 Z" id="UN" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

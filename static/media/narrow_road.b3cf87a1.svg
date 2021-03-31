@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="68px" viewBox="0 0 69 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>narrow road</title>
+    <defs>
+        <rect id="path-1" x="-7.14095449e-13" y="0" width="60.0375235" height="60" rx="30"></rect>
+        <filter x="-11.7%" y="-8.3%" width="123.3%" height="123.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-Copy" transform="translate(-419.000000, -79.000000)">
+            <g id="narrow-road" transform="translate(423.000000, 81.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#D5001A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="narrow-road-copy" transform="translate(12.005390, 11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M35.436133,28.1675749 C35.390226,28.0870405 36.3293639,29.7329261 20.5253466,2.03593496 C19.5272639,0.408971971 17.0319541,0.40690533 16.0325676,2.03593496 L16.0246763,2.04885147 L1.12178118,28.1675749 C0.139069404,29.7940858 1.38638118,31.8149376 3.37691977,31.8149376 L33.1809258,31.8149376 C35.1694744,31.8149376 36.4198055,29.7956358 35.436133,28.1675749 L35.436133,28.1675749 Z M33.1809258,29.8773972 L3.37698839,29.8773972 C2.96512916,29.8773972 2.70711671,29.4581921 2.91345805,29.1217817 L2.92134938,29.1088652 L17.8215683,2.99492089 C18.0287331,2.67194367 18.5293184,2.67187909 18.7364145,2.99492089 L33.6290852,29.0957549 L33.6445248,29.1217817 C33.8511406,29.4587087 33.5920988,29.8773972 33.1809258,29.8773972 Z" id="Shape"></path>
+                    <polygon id="Path" points="15.1790216 19.0283509 12.7790216 21.8283509 12.7790216 27.8149376 14.3790216 27.8149376 14.3790216 22.6015243 16.7790216 19.8015243 16.7790216 13.8149376 15.1790216 13.8149376"></polygon>
+                    <polygon id="Path" points="22.3790216 13.8149376 20.7790216 13.8149376 20.7790216 19.8015243 23.1790216 22.6015243 23.1790216 27.8149376 24.7790216 27.8149376 24.7790216 21.8283509 22.3790216 19.0283509"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
